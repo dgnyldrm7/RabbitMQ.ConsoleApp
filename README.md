@@ -1,13 +1,20 @@
-This is a simple .NET console application to understand the basics of RabbitMQ messaging. It demonstrates:
+# 🐇 RabbitMQ Console Test  
 
-✅ Producer & Consumer example
-✅ Message Queueing
-✅ Basic Exchange Types
+A simple .NET console application to understand the basics of **RabbitMQ messaging**. It demonstrates:  
 
-🛠 How to Run
-Start RabbitMQ (Make sure RabbitMQ is running)
-Run the producer to send messages
-Run the consumer to receive messages
-📌 Requirements
-.NET SDK
-RabbitMQ Server
+- ✅ **Producer & Consumer** example  
+- ✅ **Message Queueing**  
+- ✅ **Basic Exchange Types**  
+
+## 🚀 Getting Started  
+
+### Prerequisites  
+- .NET SDK  
+- RabbitMQ Server (Make sure it's running)  
+
+### Run the Application  
+
+1. **Start RabbitMQ**  
+2. Run the **Producer** to send messages:  
+   ```sh
+   dotnet run --project Producer
