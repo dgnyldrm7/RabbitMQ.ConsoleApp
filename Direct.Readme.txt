@@ -1,0 +1,14 @@
+# Exchange Type ile sadece Publisher ilgilenir. Consumer, Queue ile ilgilenir.
+## Publisher kýsýmlarýnda queue declare etmeye gerek yoktur. Publisher sadece exchange ile ilgilenir.
+## Publisher, exchange'e mesajý gönderir. Exchange, mesajý alýr ve routing key'e göre ilgili queue'ye gönderir.
+## Consumer, queue'yi dinler ve mesajý alýr.
+
+
+## Direct Exchange:
+	# Mesajý routing key'e göre ilgili queue'ye gönderir.
+	# Routing key ile queue ismi ayný olmalýdýr.
+	# Routing key ile queue ismi ayný olmalýdýr. Eðer ayný deðilse mesaj gönderilmez.
+	# Eðer birden fazla queue varsa, mesajý birden fazla queue'ye gönderir.
+
+
+

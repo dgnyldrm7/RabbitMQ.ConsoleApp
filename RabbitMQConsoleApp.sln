@@ -15,10 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExchangeTypes", "ExchangeTy
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fanout", "Fanout", "{B2457FC2-F806-475A-97AC-BD54C4F07520}"
 	ProjectSection(SolutionItems) = preProject
-		Readme.txt = Readme.txt
+		Fanout.Readme.txt = Fanout.Readme.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Direct", "Direct", "{16A1E5BB-E488-4E20-9A03-192A0D00ABDA}"
+	ProjectSection(SolutionItems) = preProject
+		Direct.Readme.txt = Direct.Readme.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Topic", "Topic", "{EDEF0F02-DD5A-40BF-8849-4BF51EA3BD9D}"
 EndProject
@@ -27,6 +30,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fanout.Publisher", "Fanout.Publisher\Fanout.Publisher.csproj", "{A3FAA142-957A-4E17-AF60-2E1A90BF0258}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fanout.Subscriber", "Fanout.Subscriber\Fanout.Subscriber.csproj", "{7F7C8270-A235-40AD-8C25-4BE4F53119E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Direct.Publisher", "Direct.Publisher\Direct.Publisher.csproj", "{D14F9610-637E-4AAD-91BE-1B7377F8EC3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Direct.Subscriber", "Direct.Subscriber\Direct.Subscriber.csproj", "{BCB0FE14-836E-40CB-95B5-5E490C4828A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +57,14 @@ Global
 		{7F7C8270-A235-40AD-8C25-4BE4F53119E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F7C8270-A235-40AD-8C25-4BE4F53119E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F7C8270-A235-40AD-8C25-4BE4F53119E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D14F9610-637E-4AAD-91BE-1B7377F8EC3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14F9610-637E-4AAD-91BE-1B7377F8EC3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14F9610-637E-4AAD-91BE-1B7377F8EC3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14F9610-637E-4AAD-91BE-1B7377F8EC3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB0FE14-836E-40CB-95B5-5E490C4828A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB0FE14-836E-40CB-95B5-5E490C4828A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB0FE14-836E-40CB-95B5-5E490C4828A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB0FE14-836E-40CB-95B5-5E490C4828A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +78,8 @@ Global
 		{C885026B-404A-4F84-BC25-AAFB5CA9AC53} = {5B9F5B57-A76E-4E1C-8923-D325D91701FB}
 		{A3FAA142-957A-4E17-AF60-2E1A90BF0258} = {B2457FC2-F806-475A-97AC-BD54C4F07520}
 		{7F7C8270-A235-40AD-8C25-4BE4F53119E8} = {B2457FC2-F806-475A-97AC-BD54C4F07520}
+		{D14F9610-637E-4AAD-91BE-1B7377F8EC3D} = {16A1E5BB-E488-4E20-9A03-192A0D00ABDA}
+		{BCB0FE14-836E-40CB-95B5-5E490C4828A6} = {16A1E5BB-E488-4E20-9A03-192A0D00ABDA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E33BCCAC-D49A-4C2D-BE6D-4DFE9DA9E2AF}
