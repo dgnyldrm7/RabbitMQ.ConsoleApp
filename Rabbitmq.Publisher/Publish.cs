@@ -9,7 +9,7 @@ namespace Rabbitmq.Publisher
 {
     internal class Publish
     {
-        public async Task MessageSenderAsync()
+        internal async Task MessageSenderAsync()
         {
             // Create a connection factory
             ConnectionFactory factory = new ConnectionFactory();
